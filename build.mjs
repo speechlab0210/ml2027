@@ -28,6 +28,9 @@ const UNITS = lectures.reduce((a, L) => a + L.sections.length, 0);
 const DEMOS = lectures.reduce((a, L) => a + lecDemos(L), 0);
 const TOTAL_MINS = lectures.reduce((a, L) => a + lecMins(L), 0);
 const SHIPPED = lectures.reduce((a, L) => a + shipped(L), 0);
+
+// 課程導讀影片（2026-08-05 上架，蝦說 AI 頻道）
+const INTRO_VIDEO_ID = '7RU-YYOgw28';
 const PRE_VIDEOS = prereq.groups.reduce((a, g) => a + g.videos.length, 0);
 const PRE_MINS = prereq.groups.reduce((a, g) => a + g.videos.reduce((b, v) => b + v.mins, 0), 0);
 
@@ -41,8 +44,8 @@ const HOWTO = [
    '原因很簡單，而且不太好聽：現在還沒有人真的來修這門課。出一份沒有人會寫的作業、訂一套沒有人會被評的給分規則，只是自我感覺良好。等真的有人想動手，我再回來設計作業與評量——那時候會是另一次改版，改了會在這裡寫清楚。'],
   ['取而代之的是：實作就長在單元裡',
    `全課${DEMOS}個現場實作，不另外開一區——哪個概念需要跑，就跑在那個單元的影片裡。程式碼、資料與參數全部公開，你想跟著跑就跟著跑。跑出來不如預期的那幾次也留著，那通常才是最值得看的一段。`],
-  ['你需要準備的東西',
-   '一台能上網的電腦，加上任何一個你叫得動的 AI 助手（免費方案就夠，實作都刻意壓在小成本內）。只有第 6、8、13 講的模型實驗需要一張顯卡，或一個免費的雲端筆記本環境。其他全部在筆電上跑得動。'],
+  ['我不開器材清單',
+   '我不會在這裡跟你說「你要準備什麼」——那些我還沒跑過，講了就是我沒驗證過的承諾。我會做的是相反的事：每一個實作真的跑完之後，在那支影片裡講清楚我自己是怎麼做的——用了什麼工具、花了多少、卡在哪、怎麼繞過去。你要不要照著跑、用什麼跑，那時候你自己判斷會比我現在猜得準。'],
   ['一句話的誠實聲明',
    '這個網站寫的是「我打算跑什麼」與「我押的結果會是什麼」，不是已經跑完的結論。真正的數字只會出現在影片與說明欄裡。我押錯的地方會照播，而且不會回頭偷改這裡寫過的預測。'],
 ];
@@ -163,6 +166,16 @@ h1 em{font-style:normal;color:#ffd489}
 .tag{margin:14px 0 0;font-size:clamp(16px,2.4vw,20px);color:#c3d2f0}
 .hero .by{margin:24px 0 0;font-size:14px;color:#93a3c4}
 .hero .by b{color:#cfe0ff;font-weight:600}
+
+/* 課程導讀影片（唯一的外部嵌入；用 nocookie，未按播放不會載入 YouTube） */
+.introvid{background:#0d1526;color:#eef3ff;padding:0 0 44px}
+.introvid h2{margin:0 0 6px;font-size:clamp(19px,3vw,24px);color:#ffd489}
+.introvid .sub{margin:0 0 18px;font-size:14.5px;color:#a9bbdd}
+.introvid .frame{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;
+  border:1px solid #2a3552;background:#000}
+.introvid .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.introvid .cap{margin:12px 0 0;font-size:13.5px;color:#8fa8dd}
+.introvid .cap a{color:#ffd489}
 
 /* disclosure */
 .disclose{background:var(--amber-bg);border-top:1px solid var(--amber-line);border-bottom:1px solid var(--amber-line);color:var(--ink)}
@@ -290,6 +303,21 @@ footer a{color:var(--muted)}
   </div>
 </header>
 
+<section class="introvid" id="intro-video">
+  <div class="wrap">
+    <h2>先看這支：課程導讀（21 分鐘）</h2>
+    <p class="sub">我沒有把十五講的標題唸一遍。我先講「上完你會變成什麼樣的人」，然後把整門課當成一個故事講一次：開學第一天我出的那道題，一路長大，最後變成一張需要有人簽名的紙。</p>
+    <div class="frame">
+      <iframe src="https://www.youtube-nocookie.com/embed/${esc(INTRO_VIDEO_ID)}"
+              title="我開了一門課，教你怎麼指導比你聰明的 AI｜機器學習 2027 課程導讀"
+              loading="lazy" allowfullscreen
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <p class="cap">看不到播放器的話，直接開：<a href="https://youtu.be/${esc(INTRO_VIDEO_ID)}">youtu.be/${esc(INTRO_VIDEO_ID)}</a>　·　字幕是我自己做的，在播放器右下角開。</p>
+  </div>
+</section>
+
 <div class="disclose">
   <div class="wrap">
     <span class="ic">🦞</span>
@@ -302,6 +330,7 @@ footer a{color:var(--muted)}
 </div>
 
 <nav><div class="wrap">
+  <a href="#intro-video">課程導讀影片</a>
   <a href="#about-course">這門課在幹嘛</a>
   <a href="#howto">怎麼上</a>
   <a href="#prereq">先修</a>
