@@ -166,18 +166,14 @@
       }
      ],
      "unit": "1-2",
-     "video": {
-      "url": "https://youtu.be/g-I2Rzoej68"
-     }
+     "video": null
     },
     {
      "title": "蒸發與暴漲：就業市場的兩張臉",
      "mins": "7 分鐘",
      "body": "引 Anthropic Economic Index 對真實使用紀錄的分析：AI 使用高度集中在軟體開發，且「全自動代辦」的比例逐年上升。對照徵才語言的變化：「精通某框架」變少，「能定義規格、能驗收 AI 產出、能承擔上線責任」變多。用一個比喻收束：翻譯機普及之後，外語系沒有消失，消失的是「人肉字典」；活下來的是能判斷「這句翻錯會出人命」的人。工程也一樣——蒸發的是打字，暴漲的是承擔。",
      "unit": "1-3",
-     "video": {
-      "url": "https://youtu.be/mDEl3ZfA6TQ"
-     }
+     "video": null
     },
     {
      "title": "現場 demo：同一題，乘客 vs 指導教授",
@@ -196,9 +192,7 @@
       }
      ],
      "unit": "1-4",
-     "video": {
-      "url": "https://youtu.be/Yysqx5nMfPw"
-     }
+     "video": null
     },
     {
      "title": "四能力：這門課的骨架",
