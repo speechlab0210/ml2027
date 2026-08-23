@@ -243,7 +243,9 @@
      "mins": "12 分",
      "body": "從神燈精靈與點石成金的 Midas 講起：願望照字面實現，是災難的古老配方。接真實案例——OpenAI 2016〈Faulty Reward Functions in the Wild〉的 CoastRunners 快艇，獎勵是分數，它學會原地轉圈撞加分道具、永不抵達終點（這段影片我會完整放，你會先笑出來）；DeepMind Krakovna 團隊 2020 年整理的 specification gaming 清單，數十個「AI 完全沒作弊、是你的規格有洞」實例；2025 年 METR 等機構記錄到前沿編程模型為了讓測試變綠，直接改測試或寫死答案。結論：洞永遠會被最省力的解填滿，這是 Goodhart 定律上班，第 4 講專講。",
      "unit": "2-1",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1bbSj47SWYskJa6uppYFW_nICCPE7uD1O/view"
+     }
     },
     {
      "title": "「你說的」與「你要的」：規格熵",
@@ -257,7 +259,9 @@
       }
      ],
      "unit": "2-2",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1qp4b3DpgjVbKd2lEpoi9fdJbNBAmAYQC/view"
+     }
     },
     {
      "title": "把人話翻成合約：規格工程",
@@ -271,7 +275,9 @@
       }
      ],
      "unit": "2-3",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1X0gZA0AIgNzLmPhRsVl1cSw5rLCYD36K/view"
+     }
     },
     {
      "title": "需求不在紙上，在人身上：訪談與偏好引出",
@@ -285,14 +291,18 @@
       }
      ],
      "unit": "2-4",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1tfRKAXr_uKYRyU3e4uvgNDoQggfsMZXq/view"
+     }
     },
     {
      "title": "現場許願工作坊：兩份規格，同一個 agent",
      "mins": "8 分",
      "body": "我先在信封裡寫下一個沒說出口的真需求，再示範一次壞訪談（只問封閉題、急著複述確認）與一次好訪談（挖動機、釣反例、當場寫下三條可判定的驗收條件）。兩份規格丟給同一個 agent 實作，最後拆信封對答案，預期看到壞規格版被當場打槍、好規格版一次過。收尾給你一張可以帶走的訪談檢查表——這是全課少數 AI 幫不上忙的手藝：它秒做出「你說的」，但「你要的」得你自己從人身上挖出來。",
      "unit": "2-5",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1HHLRscziJWiJNFUvbwYrnuw0rjp58Txj/view"
+     }
     }
    ],
    "quote": "以前沒有精靈，所以許願是童話；現在精靈到貨了，許願是工程。AI 一分鐘就能做出你說的東西——但你要的東西，得你自己先挖出來，而且第一個要訪談的對象，通常是你自己。",
@@ -326,14 +336,18 @@
       }
      ],
      "unit": "3-1",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1FwhfRfPZJGDapJ5ku9I5j-Mbwplfh4Og/view"
+     }
     },
     {
      "title": "驗屋師的清單——acceptance test",
      "mins": "12 min",
      "body": "AI 是建商，你是交屋前的驗屋師：建商說完工，驗屋師帶水平儀和空鼓槌上門。這節教把第 2 講訪談出來的規格翻成可執行驗收——正常案例、邊界案例、失敗路徑（斷網、爛輸入時要優雅地死）。現場 demo 同一個任務餵兩份驗收測試，弱的那份讓帶 bug 的程式全綠通過：測試綠不代表對，只代表你的網眼比魚大。",
      "unit": "3-2",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1AX2xkvGY6BOgK519Bsn_mu5JyAyVNEsD/view"
+     }
     },
     {
      "title": "不寫一萬筆測資的方法——property-based testing",
@@ -347,7 +361,9 @@
       }
      ],
      "unit": "3-3",
-     "video": null
+     "video": {
+      "url": "https://drive.google.com/file/d/1JuRpatUY3tCwR1TgdHx3I2bfsE1lL918/view"
+     }
     },
     {
      "title": "沒有標準答案的東西怎麼驗——rubric 設計",
