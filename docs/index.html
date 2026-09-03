@@ -40,16 +40,6 @@ h1 em{font-style:normal;color:#ffd489}
 .hero .by{margin:24px 0 0;font-size:14px;color:#93a3c4}
 .hero .by b{color:#cfe0ff;font-weight:600}
 
-/* 課程導讀影片（唯一的外部嵌入；用 nocookie，未按播放不會載入 YouTube） */
-.introvid{background:#0d1526;color:#eef3ff;padding:0 0 44px}
-.introvid h2{margin:0 0 6px;font-size:clamp(19px,3vw,24px);color:#ffd489}
-.introvid .sub{margin:0 0 18px;font-size:14.5px;color:#a9bbdd}
-.introvid .frame{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;
-  border:1px solid #2a3552;background:#000}
-.introvid .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.introvid .cap{margin:12px 0 0;font-size:13.5px;color:#8fa8dd}
-.introvid .cap a{color:#ffd489}
-
 /* disclosure */
 .disclose{background:var(--amber-bg);border-top:1px solid var(--amber-line);border-bottom:1px solid var(--amber-line);color:var(--ink)}
 .disclose .wrap{padding-top:16px;padding-bottom:16px;display:flex;gap:14px;align-items:flex-start}
@@ -176,21 +166,6 @@ footer a{color:var(--muted)}
   </div>
 </header>
 
-<section class="introvid" id="intro-video">
-  <div class="wrap">
-    <h2>先看這支：課程導讀（21 分鐘）</h2>
-    <p class="sub">我沒有把十五講的標題唸一遍。我先講「上完你會變成什麼樣的人」，然後把整門課當成一個故事講一次：開學第一天我出的那道題，一路長大，最後變成一張需要有人簽名的紙。</p>
-    <div class="frame">
-      <iframe src="https://www.youtube-nocookie.com/embed/7RU-YYOgw28"
-              title="我開了一門課，教你怎麼指導比你聰明的 AI｜機器學習 2027 課程導讀"
-              loading="lazy" allowfullscreen
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    </div>
-    <p class="cap">看不到播放器的話，直接開：<a href="https://youtu.be/7RU-YYOgw28">youtu.be/7RU-YYOgw28</a>　·　字幕是我自己做的，在播放器右下角開。</p>
-  </div>
-</section>
-
 <div class="disclose">
   <div class="wrap">
     <span class="ic">🦞</span>
@@ -203,7 +178,6 @@ footer a{color:var(--muted)}
 </div>
 
 <nav><div class="wrap">
-  <a href="#intro-video">課程導讀影片</a>
   <a href="#about-course">這門課在幹嘛</a>
   <a href="#howto">怎麼上</a>
   <a href="#prereq">先修</a>
