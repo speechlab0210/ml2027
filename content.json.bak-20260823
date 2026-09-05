@@ -243,9 +243,7 @@
      "mins": "12 分",
      "body": "從神燈精靈與點石成金的 Midas 講起：願望照字面實現，是災難的古老配方。接真實案例——OpenAI 2016〈Faulty Reward Functions in the Wild〉的 CoastRunners 快艇，獎勵是分數，它學會原地轉圈撞加分道具、永不抵達終點（這段影片我會完整放，你會先笑出來）；DeepMind Krakovna 團隊 2020 年整理的 specification gaming 清單，數十個「AI 完全沒作弊、是你的規格有洞」實例；2025 年 METR 等機構記錄到前沿編程模型為了讓測試變綠，直接改測試或寫死答案。結論：洞永遠會被最省力的解填滿，這是 Goodhart 定律上班，第 4 講專講。",
      "unit": "2-1",
-     "video": {
-      "url": "https://youtu.be/7BhAORFUiX0"
-     }
+     "video": null
     },
     {
      "title": "「你說的」與「你要的」：規格熵",
@@ -259,9 +257,7 @@
       }
      ],
      "unit": "2-2",
-     "video": {
-      "url": "https://youtu.be/s9avqpZ1gro"
-     }
+     "video": null
     },
     {
      "title": "把人話翻成合約：規格工程",
@@ -275,9 +271,7 @@
       }
      ],
      "unit": "2-3",
-     "video": {
-      "url": "https://youtu.be/9PVSSeEvEPU"
-     }
+     "video": null
     },
     {
      "title": "需求不在紙上，在人身上：訪談與偏好引出",
@@ -291,18 +285,14 @@
       }
      ],
      "unit": "2-4",
-     "video": {
-      "url": "https://youtu.be/AbBenTuAt-g"
-     }
+     "video": null
     },
     {
      "title": "現場許願工作坊：兩份規格，同一個 agent",
      "mins": "8 分",
      "body": "我先在信封裡寫下一個沒說出口的真需求，再示範一次壞訪談（只問封閉題、急著複述確認）與一次好訪談（挖動機、釣反例、當場寫下三條可判定的驗收條件）。兩份規格丟給同一個 agent 實作，最後拆信封對答案，預期看到壞規格版被當場打槍、好規格版一次過。收尾給你一張可以帶走的訪談檢查表——這是全課少數 AI 幫不上忙的手藝：它秒做出「你說的」，但「你要的」得你自己從人身上挖出來。",
      "unit": "2-5",
-     "video": {
-      "url": "https://youtu.be/fDHmd9nYlWU"
-     }
+     "video": null
     }
    ],
    "quote": "以前沒有精靈，所以許願是童話；現在精靈到貨了，許願是工程。AI 一分鐘就能做出你說的東西——但你要的東西，得你自己先挖出來，而且第一個要訪談的對象，通常是你自己。",
@@ -336,18 +326,14 @@
       }
      ],
      "unit": "3-1",
-     "video": {
-      "url": "https://youtu.be/kLXg36VC9pQ"
-     }
+     "video": null
     },
     {
      "title": "驗屋師的清單——acceptance test",
      "mins": "12 min",
      "body": "AI 是建商，你是交屋前的驗屋師：建商說完工，驗屋師帶水平儀和空鼓槌上門。這節教把第 2 講訪談出來的規格翻成可執行驗收——正常案例、邊界案例、失敗路徑（斷網、爛輸入時要優雅地死）。現場 demo 同一個任務餵兩份驗收測試，弱的那份讓帶 bug 的程式全綠通過：測試綠不代表對，只代表你的網眼比魚大。",
      "unit": "3-2",
-     "video": {
-      "url": "https://youtu.be/cR1rarMjfiM"
-     }
+     "video": null
     },
     {
      "title": "不寫一萬筆測資的方法——property-based testing",
@@ -361,9 +347,7 @@
       }
      ],
      "unit": "3-3",
-     "video": {
-      "url": "https://youtu.be/H1TiZSCcHRA"
-     }
+     "video": null
     },
     {
      "title": "沒有標準答案的東西怎麼驗——rubric 設計",
@@ -384,18 +368,14 @@
      "mins": "8 min",
      "body": "計算複雜度的老直覺：解題難、驗解容易，這是 P vs NP 的日常版。給出委託公式：委託划算 ⟺ 生成省下的時間 − 驗收成本 − 漏驗風險 > 0。寫程式的驗證便宜，可以大量委託；開放式研究判斷的驗證跟自己做一樣貴，就是危險區。結論：2027 年你的時薪不取決於你會不會做，取決於你驗得多快。",
      "unit": "3-5",
-     "video": {
-      "url": "https://youtu.be/STaoV31OK4A"
-     }
+     "video": null
     },
     {
      "title": "把任務蓋成寶可夢道館——environment design",
      "mins": "12 min",
      "body": "終極型態是事前把任務蓋成自動評分的環境，像寶可夢道館：規則寫死、館主自動判輸贏、贏了發徽章、想偷吃藥還有防作弊機制。DeepSeek-R1（2025）靠可驗證獎勵的 RL 練出推理能力，同年各實驗室重金收購 RL 環境、Prime Intellect 開出 Environments Hub——環境已是商品。好環境三要件：自動判分、防作弊（Tetris agent 學會按暫停，遊戲永不結束就永遠不會輸）、難度階梯。這門課後面每一講的現場實作，我都得先蓋一個這樣的小道館出來，不然結果沒得比——你會看到我蓋的過程，包括蓋壞的那幾次。",
      "unit": "3-6",
-     "video": {
-      "url": "https://youtu.be/nul5M0duBlI"
-     }
+     "video": null
     }
    ],
    "quote": "在 AI 什麼都做得出來的時代，「什麼叫做完了」是人類最後保留的定義權。你定義得出來，AI 就做得到；你定義不出來，它做出來的東西你也不敢用。",
@@ -423,9 +403,7 @@
      "mins": "10 分",
      "body": "benchmark 的生命週期＝發布→鑑別→衝榜→飽和→報廢。本講主軸比喻「米其林密探」：考卷一公開，等於密探照片被貼在每家餐廳廚房，之後餐廳只對密探端好菜，星等不再代表平日水準。引 Goodhart's law（指標一旦成為目標就不再是好指標），以及 Humanity's Last Exam 的誕生背景——2025 年主流榜單逼近天花板，只好眾包出「最後一份考卷」。結論：榜單之死不是意外，是所有靜態考卷的宿命。",
      "unit": "4-1",
-     "video": {
-      "url": "https://youtu.be/CIvUaQ_eWX4"
-     }
+     "video": null
     },
     {
      "title": "驗屍報告一：資料污染",
