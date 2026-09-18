@@ -74,6 +74,7 @@ const unitItem = (u) => {
       <div class="udetail">
         <p>${rich(u.body)}</p>
         ${ds.map(demoBlock).join('')}
+        ${u.lab ? `<p class="diy"><a href="${esc(u.lab.url)}">🧪 ${esc(u.lab.title)}</a>（瀏覽器即可操作）</p>` : ''}
       </div>
     </details>
   </li>`;
@@ -408,3 +409,6 @@ fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf-8');
 fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
 console.log(`✅ docs/index.html — ${(html.length / 1024).toFixed(1)} KB｜${lectures.length} 講 / ${UNITS} 單元｜${DEMOS} 實作｜先修 ${PRE_VIDEOS} 支｜規劃總長 ${TOTAL_MINS} 分`);
+
+// Include tested interactive labs in the generated static site.
+fs.cpSync(path.join(HERE, 'labs'), path.join(HERE, 'docs/labs'), { recursive: true });
