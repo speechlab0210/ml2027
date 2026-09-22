@@ -634,9 +634,7 @@
           "mins": "10 分",
           "body": "祖師爺是 Voyager（2023）——Minecraft agent 把學會的技能寫成程式碼存庫、終身複用；如今變成資料夾慣例：一任務一份 SKILL.md，錯一次就把教訓寫進去，下次開機自動繼承。記憶系統引 MemGPT（2023）：context 當 RAM、外部檔案當硬碟，模型自己決定換頁。這是不動權重的「學習」；真要動權重，是第 13 講的事。",
           "unit": "6-3",
-          "video": {
-            "url": "https://youtu.be/M3eIdZXLct8"
-          }
+          "video": null
         },
         {
           "title": "工具設計：給錯螺絲起子，天才也鎖不了螺絲",
