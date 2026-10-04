@@ -695,7 +695,9 @@
      "mins": "10 分",
      "body": "先算一筆帳：1976 年 Fagan inspection 的黃金標準是每小時審 150-400 行，一支 agent 一晚產出數萬行；GitClear 多年期報告顯示 AI 普及後 code churn 與複製貼上碼比例逐年上升。再引 Sadowski et al.（ICSE-SEIP 2018）：Google 早就放棄「找出所有 bug」，review 的目標是可維護性與知識傳遞，而且 diff 越小審得越快越準。結論：逐行看已死，但「控制送審單位的大小」是活的——先在上游把 AI 的產出切小，才有下游可言。",
      "unit": "7-1",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/_DuUsoLXGy4"
+     }
     },
     {
      "title": "海關不會打開每個貨櫃——抽樣審計",
