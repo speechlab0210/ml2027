@@ -754,7 +754,9 @@
      "mins": "10 分",
      "body": "後半場轉向管「用 AI 的自己」。Perry et al.（Stanford, ACM CCS 2023）：用 AI 助手的受試者寫出更不安全的 code，卻更有自信——危險的不是退步，是退步加自信。再接自動化研究的經典 automation bias，與航空界「Children of the Magenta」講座及法航 447：自動駕駛太好用，飛行員手飛技能退化，出事時接不回來。2025 年 MIT Media Lab 的 EEG 研究也初步顯示長期依賴 LLM 寫作者腦區參與度下降。結論：退化是預設值，不退化要刻意安排。",
      "unit": "7-5",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/ir5rFdHxXc4"
+     }
     },
     {
      "title": "手飛時數——不退化練功法",
