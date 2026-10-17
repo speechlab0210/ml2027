@@ -819,7 +819,9 @@
      "mins": "12 分",
      "body": "困難先講：一顆神經元疊了很多概念（superposition），所以要用 sparse autoencoder 把活化值拆成人看得懂的特徵。2024 年 Scaling Monosemanticity 找到「金門大橋特徵」，把它調大，模型就自稱是金門大橋——標準的腦部電擊示範。2025 年的 attribution graph 系列更狠：模型做兩位數加法時內部走平行估算路徑，你問它怎麼算的，它背直式加法給你聽。解題法和解題法的說明，是兩套電路。",
      "unit": "8-3",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/j2VJdaJEqe0"
+     }
     },
     {
      "title": "思維鏈測謊",
