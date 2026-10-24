@@ -921,7 +921,9 @@
      "mins": "8 min",
      "body": "解剖開場那支 demo：一個錯誤的 API 假設，怎麼在共享筆記裡滾成全隊共識——集體幻覺雪球。上溯古典 AI 的 blackboard 架構，再給三個現代對策：記憶分權限（append-only 事實區 vs 可覆寫草稿區）、每條記錄掛出處 provenance，以及最重要的——關鍵 claim 必須通過驗證才准入庫，等於在記憶體門口擺一個第 3 講教過的驗收測試。共享記憶不是硬碟，是要有編輯部的期刊。",
      "unit": "9-3",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/00TPRK0GHME"
+     }
     },
     {
      "title": "協作失敗圖鑑：十四種死法",
