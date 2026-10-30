@@ -982,7 +982,9 @@
       }
      ],
      "unit": "10-1",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/S62yB0ZGy1I"
+     }
     },
     {
      "title": "有毒的工具箱——tool poisoning 與供應鏈",
