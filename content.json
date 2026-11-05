@@ -1061,7 +1061,9 @@
      "mins": "8 min",
      "body": "文字 agent 驗收看輸出，GUI agent 的錯誤藏在畫素裡：按到隔壁那顆長得很像的按鈕、座標偏移 20px、彈窗蓋住沒看到。狀態只能部分觀察（螢幕外的世界看不全），動作又常不可逆——「送出」沒有 Ctrl+Z。用 WebArena、OSWorld 的題目實例展示「回答對了但世界改錯了」。結論：驗收單位從「答案」變成「世界的終態＋抵達路徑」。",
      "unit": "11-1",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/UTL2G415ZhI"
+     }
     },
     {
      "title": "Computer-use 評測：驗環境，不驗自我申報",
