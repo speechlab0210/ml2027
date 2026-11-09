@@ -1118,7 +1118,9 @@
      "mins": "10 min",
      "body": "語音再加一軸：時間。離線看逐字稿全對的 agent，實際對話可能句句慢兩秒、被插話就當機。引 Full-Duplex-Bench（2025）：驗 barge-in（使用者插話它停不停）、回應延遲、該接話時的沉默；對照 GPT-4o Realtime、Moshi 這類全雙工系統的設計。demo：兩個訂餐語音 agent 現場被打斷，一個硬講完整句，一個即時收口改答。結論：語音驗收驗的是「行為在時間軸上的形狀」，transcript 驗不出來。",
      "unit": "11-5",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/ZgZSmK1dHEY"
+     }
     },
     {
      "title": "收束：考官的三件裝備",
