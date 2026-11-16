@@ -1165,7 +1165,9 @@
      "mins": "8 分",
      "body": "談 tool/function calling 的工程面：以 MCP（Model Context Protocol，2024）當「工具的 USB-C」，講 schema 怎麼寫、錯誤訊息要回什麼給 agent 才有用——回「失敗」沒用，回「參數格式錯、要 YYYY-MM-DD」才有用。反直覺結論來自 Berkeley Function Calling Leaderboard 一類評測：工具給太多，模型選錯工具的機率反而上升。插座不是越多越好。深入的 harness 設計第 6 講講過，這裡只管接得上、量得到。",
      "unit": "12-2",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/YQklTQlRMMQ"
+     }
     },
     {
      "title": "沙盒：讓 agent 拆家也拆不出去",
