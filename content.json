@@ -1344,7 +1344,9 @@
      "mins": "12分",
      "body": "自我改進拆三路：改咒語（prompt／harness／skill 庫）、改教材（自產資料再訓練）、改腦子（動權重）。改咒語像換胎，Voyager 在 Minecraft 自建 skill 庫、DSPy 自動優化 prompt，改動是文字，可 diff 可回滾，最好監督。改教材像換燃油配方，STaR、Self-Rewarding LM 讓模型自產訓練資料，毒性藏在統計分佈裡，而且幾乎不可回滾——麵粉揉進麵團就挑不出來。改腦子像改引擎，圈速變快，但你不知道它順手改了什麼。結論：監督難度與改動的可讀性成反比，這決定所有煞車設計。",
      "unit": "14-1",
-     "video": null
+     "video": {
+      "url": "https://youtu.be/UyqVqaG5mL0"
+     }
     },
     {
      "title": "活教材：一年份的改裝申請書",
